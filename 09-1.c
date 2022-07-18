@@ -38,7 +38,7 @@ int main(void){
 		
 		else if (n==2){
 			double x;
-			scanf("%f",&x);
+			scanf("%lf",&x);
 			printf("%f\n",(double)ctf(x));
 			printf("%f\n",(double)ftc(x));
 		}
